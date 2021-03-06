@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class ServersComponent {
   allowNewServer = false;
+  addServerButtonText = 'Add Server';
 
   constructor() {
     setTimeout(() => {
