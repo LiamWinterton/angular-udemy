@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './servers.component.html',
   styleUrls: ['./servers.component.sass']
 })
+
 export class ServersComponent {
   allowNewServer = false;
   serverCreationStatus = 'No Server was created.';
